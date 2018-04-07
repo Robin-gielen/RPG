@@ -12,7 +12,7 @@ namespace RPG
 {
     class Program
     {
-        //Test du github
+        
         static void Main(string[] args)
         {
             //Initialization of chars
