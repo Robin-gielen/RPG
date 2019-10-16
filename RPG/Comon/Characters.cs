@@ -70,7 +70,7 @@ namespace RPG.Comon
         }
 
         /// <summary>
-        /// Deal dmg number of damage on whatever is on the tile at position x:y
+        /// Deal number of damage on whatever is on the tile at position x:y
         /// </summary>
         /// <param name="dmg"></param>
         /// <param name="x"></param>

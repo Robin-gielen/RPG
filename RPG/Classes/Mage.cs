@@ -9,7 +9,7 @@ namespace RPG.Classes
 {
     class Mage : Characters, IMovable
     {
-        public Mage(string name, int age, string profession, int hps, int dmg) : base(name, age, profession, hps, dmg)
+        public Mage(string name, int age, string profession) : base(name, age, profession, 9, 1)
         {
             Console.WriteLine("A Mage has been created at position [0:0] \n");
         }
