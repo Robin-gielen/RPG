@@ -111,5 +111,20 @@ namespace RPG.Comon
                 Console.WriteLine("Obstacle {0}, is at position [{1}, {2}]", obstacle.Name, obstacle.Position()[0], obstacle.Position()[1]);
             }
         }
+
+        /// <summary>
+        /// This method will return a list containing the name of every character on the map
+        /// </summary>
+        public string[] listCharacters()
+        {
+            string[] listChars = new string[dicChars.Count()];
+            int i = 0;
+            foreach (Characters character in dicChars.Keys)
+            {
+                 listChars[i] = character.Name;
+                i++;
+            }
+            return listChars;
+        }
     }
 }
